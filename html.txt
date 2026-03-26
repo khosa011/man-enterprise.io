@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manganyi Enterprise</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">Manganyi Enterprise</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Our Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+  <a class="btn primary">GET A QUOTE</a>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Premium Aluminium<br>Windows & Doors</h1>
+  <p>
+    Transform your space with our high-quality aluminium windows and doors.
+    Professional installation, exceptional craftsmanship, and lasting durability.
+  </p>
+
+  <div class="hero-buttons">
+    <a class="btn primary">GET A QUOTE</a>
+    <a class="btn outline" href="services.html">OUR SERVICES</a>
+  </div>
+
+  <div class="hero-images">
+    <img src="images/window-detail.jpg">
+    <img src="images/living-room.jpg">
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+  <h2>Our Services</h2>
+
+  <div class="service-grid">
+    <div class="card">
+      <img src="images/windows.jpg">
+      <h3>ALUMINIUM WINDOWS</h3>
+      <p>
+        We provide end-to-end solutions for premium window systems.
+        From design to installation, our windows are engineered for durability and efficiency.
+      </p>
+      <a class="btn outline">EXPLORE WINDOWS</a>
+    </div>
+
+    <div class="card">
+      <img src="images/doors.jpg">
+      <h3>ALUMINIUM DOORS</h3>
+      <p>
+        Enhance your property with high-performance door systems designed for
+        residential and commercial excellence.
+      </p>
+      <a class="btn outline">EXPLORE DOORS</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+  <h2>Contact Us</h2>
+
+  <div class="contact-grid">
+    <div>
+      <p><strong>PHONE</strong><br>+27 12 345 6789</p>
+      <p><strong>EMAIL</strong><br>info@manganyi.co.za</p>
+      <p><strong>OFFICE</strong><br>97-19th Avenue, Alexandra, South Africa</p>
+    </div>
+
+    <form>
+      <div class="row">
+        <input placeholder="First Name">
+        <input placeholder="Surname">
+      </div>
+      <input placeholder="Email">
+      <input placeholder="Phone">
+      <textarea placeholder="How can we help with your project?"></textarea>
+      <button class="btn primary">Send Inquiry</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <strong>Manganyi Enterprise</strong>
+      <p>Premium aluminium architectural solutions.</p>
+    </div>
+
+    <div>
+      <strong>CONTACT</strong>
+      <p>+27 12 345 6789<br>info@manganyienterprise.co.za</p>
+    </div>
+
+    <div>
+      <strong>FOLLOW US</strong>
+      <p>Facebook | TikTok</p>
+    </div>
+  </div>
+
+  <p class="copyright">© 2026 Manganyi Enterprise</p>
+</footer>
+
+</body>
+</html>
